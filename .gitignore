@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env.py
+.env
+.venv/
+venv/
+
+# Data
+data/raw/*
+data/media/*
+data/processed/*
+!data/processed/*.json
+!data/labeled/*.conll
+
+# Logs
+logs/*
+
+# Credentials
+*.config
+*.key
+*.secret
+
+# Large files
+*.zip
+*.tar.gz
